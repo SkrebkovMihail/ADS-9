@@ -8,7 +8,7 @@
 template<typename T>
 BST<T>::BST() : root(nullptr) {}
 
-/
+
 template<typename T>
 BST<T>::~BST() {
     destroyTree(root);
